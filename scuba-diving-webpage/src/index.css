@@ -138,3 +138,13 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+.bg-turtle {
+  /* Set the background image using the URL of the image */
+  background-image: url('./assets/turtle.png');
+  background-repeat: no-repeat;
+
+
+
+}
