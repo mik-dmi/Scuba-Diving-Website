@@ -22,26 +22,27 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: star, 
+    title: "Experienced Guides",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our team of experienced guides ensures safe and memorable diving experiences.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: shield, 
+    title: "Safety First",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We prioritize safety measures to protect you during every scuba dive adventure.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: send, 
+    title: "Dive Excursions",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Explore breathtaking underwater landscapes with our guided dive excursions.",
   },
 ];
+
 
 export const feedback = [
   {

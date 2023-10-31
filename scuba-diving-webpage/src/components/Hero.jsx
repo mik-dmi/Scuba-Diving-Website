@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from  '../style';
-import {discount, robot , turtle, diver, jelly} from '../assets';
+
 import GetStarded from './GetStarted'
-import  Stats from './Stats'
+
 
 const Hero = () => (
     <section id = "home" className = {`flex md:flex-row
@@ -10,11 +10,11 @@ const Hero = () => (
       <div className='flex flex-row justify-center 
       items-center w-full'>
  
-        <div className="flex flex-col justify-between items-start sm:w-full w-[300px] ">
+        <div className="flex flex-col justify-between items-start sm:w-full  ">
           <h1 className="flex-1 font-poppins font-semibold 
           sm:text-[72px] text-[52px] text-white md:leading-[0.9em] leading-[1.1em] ">
             Best Scuba <br/>{" "}
-            <span className="text-gradient flex-wrap md:whitespace-pre-line   sm:whitespace-nowrap "> Diving Experience</span>{" "}
+            <span className="text-gradient flex-wrap md:whitespace-pre-line   sm:whitespace-nowrap "> Diving Center</span>{" "}
             <br className="block " />{" "}
             <span className="md:flex hidden mt-2"> In the World</span>{" "}
            

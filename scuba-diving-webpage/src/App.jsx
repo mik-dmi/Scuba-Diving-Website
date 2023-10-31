@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './style'
 import { logo , turtle} from './assets';
 import {Navbar, Billing, CardDeal, Business, Clients, CTA,
-   Stats, Footer, Testimonials, Hero} from './components'
+   Stats, Footer, Testimonials, Hero, TypeSection} from './components'
 
 
    const App = () => (
     <div className="bg-white w-full overflow-hidden">
-    <div className={`$${styles.paddingX} ${styles.flexCenter}  flex flex-col relative`}>
+    <div className={`${styles.paddingX}  ${styles.flexCenter}  flex flex-col relative`}>
       <div className={`${styles.boxWidth} h-[90vh] relative bg-primary`}>
           <div
             className={`absolute inset-0 bg-turtle bg-cover bg-center`}
@@ -20,12 +20,19 @@ import {Navbar, Billing, CardDeal, Business, Clients, CTA,
               <Stats />
             </div>
           </div> 
+       
+          
+         
       </div>
     </div>
       
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Stats />
+      <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth} bg-primary`}>
+        <div className={`${styles.paddingHero} flex  p-[2em] `}>
+            <TypeSection />  
+        </div>
+          
+    
           <Business />
           <Billing />
           <CardDeal />
