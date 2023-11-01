@@ -6,7 +6,7 @@ import GetStarded from './GetStarted'
 
 const Hero = () => (
     <section id = "home" className = {`flex md:flex-row
-     flex-col  ss:align-middle ${styles.paddingY} h-max`}>     
+     flex-col  ss:align-middle py-16 h-max`}>     
       <div className='flex flex-row justify-center 
       items-center w-full'>
  
@@ -20,12 +20,12 @@ const Hero = () => (
            
 
           </h1>
-          <div className="flex  mr-0  mt-5 sm:pb-[15rem] pb-[20rem] ">
+          <div className="flex  mr-0  mt-5  ">
             <GetStarded />
           </div>
         </div>
       </div>
-      { /*    <div className={`flex-col ${styles.flexCenter} md:my-0 my-10  `}>
+      { /*  sm:pb-[15rem] pb-[20rem]  <div className={`flex-col ${styles.flexCenter} md:my-0 my-10  `}>
         <img src={diver} className="w-[50%] h[50%]  object-cover  z-[5]"></img>
         
         <img src={turtle} className="w-[50%] h[50%]  object-cover   z-[5]"></img>

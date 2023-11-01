@@ -1,12 +1,12 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-
+import styles, { layout } from "../style";
 
 
 const TypeSection = () => {
   return (
-    <div className="ml-[2em]  lg:text-4xl text-2xl font-poppins font-semibold">
-        <h2 className="text-white">
+    <section className={`${layout.section} ml-[3em] lg:text-4xl text-2xl font-poppins w-[1100px] font-semibold`}>
+        <h2 className="text-gray-700">
         Explore the underwater world along with {' '}
         <span className="text-gradient">
             <Typewriter
@@ -19,7 +19,7 @@ const TypeSection = () => {
 
 
         
-    </div>
+    </section>
   );
 }
 

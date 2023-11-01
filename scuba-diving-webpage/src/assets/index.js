@@ -23,10 +23,13 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import diverIcon from "./diverIcon.png";
 import diver from "./diver.png";
 import jelly from "./jelly.png";
 import turtle from "./turtle.png";
+import trust from "./trust.png";
+import diveTeam from "./diveTeam.png";
+import coursesIcon from "./coursesIcon.png"
 
 export {
   airbnb,
@@ -56,5 +59,9 @@ export {
   people03,
   turtle,
   diver,
-  jelly
+  jelly,
+  diverIcon,
+  trust,
+  diveTeam,
+  coursesIcon
 };

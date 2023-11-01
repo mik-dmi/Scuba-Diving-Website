@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import DivingCourses from "./DivingCourses";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
@@ -12,7 +12,7 @@ import TypeSection from "./TypeSection";
 
 export {
   Navbar,
-  Billing,
+  DivingCourses,
   CardDeal,
   Business,
   Clients,

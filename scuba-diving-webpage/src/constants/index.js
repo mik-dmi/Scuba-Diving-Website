@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, diverIcon, diveTeam, trust } from "../assets";
 
 export const navLinks = [
   {
@@ -21,22 +21,22 @@ export const navLinks = [
 
 export const features = [
   {
-    id: "feature-1",
-    icon: star, 
+    id: "diverIcon",
+    icon: diverIcon, 
     title: "Experienced Guides",
     content:
       "Our team of experienced guides ensures safe and memorable diving experiences.",
   },
   {
     id: "feature-2",
-    icon: shield, 
+    icon: trust, 
     title: "Safety First",
     content:
       "We prioritize safety measures to protect you during every scuba dive adventure.",
   },
   {
     id: "feature-3",
-    icon: send, 
+    icon: diveTeam, 
     title: "Dive Excursions",
     content:
       "Explore breathtaking underwater landscapes with our guided dive excursions.",
