@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from  '../style';
-
+import Stats from './Stats';
 import GetStarded from './GetStarted'
 
 
 const Hero = () => (
-    <section id = "home" className = {`flex md:flex-row
-     flex-col  ss:align-middle py-16 h-max`}>     
+    <section id = "home" className = {`flex md:flex-col
+     flex-col  ss:align-middle py-[1rem] h-max gap-y-[25vh]`}>     
       <div className='flex flex-row justify-center 
       items-center w-full'>
  
@@ -20,7 +20,7 @@ const Hero = () => (
            
 
           </h1>
-          <div className="flex  mr-0  mt-5  ">
+          <div className="flex  mr-0 mt-[2rem] ">
             <GetStarded />
           </div>
         </div>
@@ -37,6 +37,11 @@ const Hero = () => (
         <div className = "absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
   
       </div> */}
+
+
+        <div className="flex justify-center ">
+              <Stats />
+        </div>
 
     </section>
   )

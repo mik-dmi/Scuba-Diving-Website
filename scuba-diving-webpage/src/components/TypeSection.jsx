@@ -5,21 +5,19 @@ import styles, { layout } from "../style";
 
 const TypeSection = () => {
   return (
-    <section className={`${layout.section} ml-[3em] lg:text-4xl text-2xl font-poppins w-[1100px] font-semibold`}>
-        <h2 className="text-gray-700">
-        Explore the underwater world along with {' '}
-        <span className="text-gradient">
-            <Typewriter
-                words={['Grey Seals', 'Lemon Sharks', 'Manta Rays']}
-                loop
-                typeSpeed={120}
-            />
-        </span>
-        </h2>
-
-
-        
-    </section>
+<section className={`flex  flex-col md:text-4xl xs:text-xl xl:text-4xl font-poppins sm:py-[2rem] py-[1rem] justify-center font-semibold text-center min-h-[2em]`}>
+  <h2 className="text-gray-700 flex-wrap ml-[1em] mr-[1em] ">
+    Explore the underwater world along with {' '}
+  </h2>
+ 
+  <div className="text-gradient min-h-[1.5em]" >
+    <Typewriter
+      words={['Grey Seals', 'Lemon Sharks', 'Manta Rays']}
+      loop
+      typeSpeed={120}
+    />
+  </div>
+</section>
   );
 }
 

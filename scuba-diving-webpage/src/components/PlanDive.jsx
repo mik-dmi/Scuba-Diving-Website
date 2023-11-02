@@ -18,19 +18,17 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-
-
-const Business = () => (
-    <section id="features" className={layout.section}>
+const PlanDive = () => (
+    <section id="PlanDive" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Our dives are planned <br
          className="sm:block hidden"/> to be unforgettable  
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-[1.5em] `}>
           Explore breathtaking underwater worlds with us. Whether you're a novice
            or an experienced diver, we offer a range of dive experiences for everyone.
         </p>
-        <Button styles={`mt-7`} />
+        <Button styles={`mt-[2.5em]`} textInButton={"Learn more"} />
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
@@ -41,4 +39,4 @@ const Business = () => (
   )
 
 
-export default Business
+export default PlanDive

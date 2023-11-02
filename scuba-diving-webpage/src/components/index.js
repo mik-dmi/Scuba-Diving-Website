@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import DivingCourses from "./DivingCourses";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
+import FirstTimeDive from "./FirstTimeDive";
+import PlanDive from "./PlanDive";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -10,11 +10,12 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import TypeSection from "./TypeSection";
 
+
 export {
   Navbar,
   DivingCourses,
-  CardDeal,
-  Business,
+  FirstTimeDive,
+  PlanDive,
   Clients,
   CTA,
   Stats,

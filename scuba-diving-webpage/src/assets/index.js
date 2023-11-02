@@ -29,7 +29,9 @@ import jelly from "./jelly.png";
 import turtle from "./turtle.png";
 import trust from "./trust.png";
 import diveTeam from "./diveTeam.png";
-import coursesIcon from "./coursesIcon.png"
+import coursesIcon from "./coursesIcon.png";
+import imageOfDivingCourses from "./imageOfDivingCourses.png";
+import FirstTime from "./FirstTime.png"
 
 export {
   airbnb,
@@ -63,5 +65,7 @@ export {
   diverIcon,
   trust,
   diveTeam,
-  coursesIcon
+  coursesIcon,
+  imageOfDivingCourses,
+  FirstTime
 };
