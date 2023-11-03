@@ -8,10 +8,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="diver" className="w-[70%] h-[70%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-gray-700 text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-gray-700 text-[18px] leading-[23.4px] ">
         {title}
       </h4>
-      <p className="font-poppins font-normal  text-gray-700 text-[16px] leading-[24px]">
+      <p className={`${styles.paragraph}`}>
         {content}
       </p>
     </div>

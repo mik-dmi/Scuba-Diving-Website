@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style'
 import { logo , turtle} from './assets';
 import {Navbar, DivingCourses, FirstTimeDive, PlanDive, Clients, CTA,
-    Footer, Testimonials, Hero, TypeSection} from './components'
+    Footer, Testimonials, Hero, TypeSection, OurTeam, ContactUs} from './components'
 
 
    const App = () => (
@@ -40,10 +40,20 @@ import {Navbar, DivingCourses, FirstTimeDive, PlanDive, Clients, CTA,
           <div className={`${styles.paddingHero}  bg-gray-100 flex flex-col   pl-[2em] pr-[2em] `}>  
             <FirstTimeDive />
           </div> 
+          <div className={`${styles.paddingHero}  flex flex-col   pl-[2em] pr-[2em] `}>  
+            <OurTeam />
+          </div> 
+          <div className={`${styles.paddingHero}  bg-gray-100  flex flex-col    p-[2em] `}>  
+            <ContactUs />
+          </div> 
+
+
+
+          <Footer />
             <Testimonials />
-            <Clients />
+        
             <CTA />
-            <Footer />
+           
           
         </div>
       </div>

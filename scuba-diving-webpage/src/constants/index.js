@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, diverIcon, diveTeam, trust } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, diverIcon, diveTeam, trust, diveMasterOne, diveMasterTwo, diveMasterThree, star, diveMasterFour} from "../assets";
 
 export const navLinks = [
   {
@@ -28,21 +28,50 @@ export const features = [
       "Our team of experienced guides ensures safe and memorable diving experiences.",
   },
   {
-    id: "feature-2",
+    id: "trustIcon",
     icon: trust, 
     title: "Safety First",
     content:
       "We prioritize safety measures to protect you during every scuba dive adventure.",
   },
   {
-    id: "feature-3",
+    id: "diveTeamIcon",
     icon: diveTeam, 
     title: "Dive Excursions",
     content:
       "Explore breathtaking underwater landscapes with our guided dive excursions.",
   },
 ];
-
+export const instructor = [
+  {
+    image: diveMasterOne,
+    id:"diveMasterOne",
+    icon: star,
+    name: "Alex Chavez",
+    description: "Business Owner",
+  },
+  {
+    image: diveMasterTwo,
+    id:"diveMasterTwo",
+    icon: star,
+    name: "Ida Persson",
+    description: "Diving Instructor",
+  },
+  {
+    image:diveMasterThree,
+    id:"diveMasterThree",
+    icon: star,
+    name: "Luigi Olly",
+    description: "Diving Instructor",
+  },
+  {
+    image:diveMasterFour,
+    id:"diveMasterFour",
+    icon: star,
+    name: "Ella Ricks",
+    description: "Diving Instructor",
+  }
+]
 
 export const feedback = [
   {

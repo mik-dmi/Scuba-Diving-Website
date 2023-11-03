@@ -9,7 +9,6 @@ import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
-import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -31,7 +30,12 @@ import trust from "./trust.png";
 import diveTeam from "./diveTeam.png";
 import coursesIcon from "./coursesIcon.png";
 import imageOfDivingCourses from "./imageOfDivingCourses.png";
-import FirstTime from "./FirstTime.png"
+import FirstTime from "./FirstTime.png";
+import diveMasterOne from "./diveMasterOne.png";
+import diveMasterTwo from "./diveMasterTwo.png";
+import diveMasterThree from "./diveMasterThree.png";
+import star from "./star.png";  
+import diveMasterFour from "./diveMasterFour.png";
 
 export {
   airbnb,
@@ -45,7 +49,7 @@ export {
   robot,
   send,
   shield,
-  star,
+ 
   menu,
   close,
   google,
@@ -67,5 +71,10 @@ export {
   diveTeam,
   coursesIcon,
   imageOfDivingCourses,
-  FirstTime
+  FirstTime,
+  diveMasterOne,
+  diveMasterTwo,
+  diveMasterThree,
+  diveMasterFour,
+  star
 };
