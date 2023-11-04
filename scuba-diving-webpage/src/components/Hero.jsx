@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from  '../style';
 import Stats from './Stats';
 import GetStarded from './GetStarted'
 

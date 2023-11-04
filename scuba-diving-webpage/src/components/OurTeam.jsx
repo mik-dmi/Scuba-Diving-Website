@@ -24,7 +24,7 @@ const Instructor = ({ image,id, icon, name , description})=>(
 
 
 const OurTeam = () => (
-    <section className={`${layout.section}  align-middle justify-center`}>
+    <section id = "team" className={`${layout.section}  align-middle justify-center`}>
         <div className="flex flex-col  justify-center items-center" >
             <h2 className={`${styles.heading2} text-center pb-[4rem]`}>Meet Our Team</h2>
             <div className="grid sm:grid-rows-2  grid-rows-4 sm:grid-cols-2 grid-cols-1  md:gap-x-[10rem] gap-x-[5rem] gap-y-[2rem] ">

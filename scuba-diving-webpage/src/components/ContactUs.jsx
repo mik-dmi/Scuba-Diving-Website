@@ -4,9 +4,9 @@ import Button from "./Button";
 import { socialMedia } from "../constants";
 
 const ContactUs = () => (
-    <section className={`${layout.section}  align-middle justify-center    `}>
-        <div className="flex w-[100%">
-            <div className="w-[60%] ml-[1rem]">
+    <section id ="contact"className={`${layout.section}  align-middle justify-center  md:flex-row flex-col items-center   `}>
+     
+            <div className="md:w-[60%] w-[100%] ml-[1rem]">
                 <h2 className={`${styles.heading2}  `}>Contact Us</h2>
                 <p className={`${styles.paragraph}  `}>
                     Ready to dive into adventure? Feel free to get in touch with our friendly team 
@@ -14,7 +14,8 @@ const ContactUs = () => (
                     .Let's explore the depths together!
                 </p>
 
-                <div className='flex mt-[1rem]'>
+                <div className='flex mt-[1rem] xs:ml-[1rem] ml-0 mb-[2rem] xs:justify-start justify-center'>
+
                     {socialMedia.map((social, index) => (
                     <img
                         key={social.id}
@@ -29,10 +30,10 @@ const ContactUs = () => (
     
                 </div>
             </div>
-            <div className='flex '>
-                <Button styles={`mt-[2.5em]`} textInButton={"Learn more"} />
+            <div className=' md:mt-[10rem] mt-[2rem] md:ml-[8rem] ml-[0rem] self-center'>
+                <Button  textInButton={"Learn more"} />
             </div>
-            </div>
+     
         
         
     </section>

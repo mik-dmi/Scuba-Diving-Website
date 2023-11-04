@@ -36,6 +36,22 @@
   text-fill-color: transparent;
 }
 
+.text-darkergradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #8ed6ea 0.89%,
+    rgb(120, 198, 216) 17.23%,
+    #67bddc 42.04%,
+    #4ebbd9 55.12%,
+    #38c5ec 71.54%,
+    #108be9 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -47,6 +63,20 @@
     #33bbcf 90.29%
   );
 }
+.bg-darkblue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #a7ced1 -43.27%,
+    #a3ecee -21.24%,
+    #82d5d8 12.19%,
+    #6cc8cb 29.82%,
+    #5ce1e6 51.94%,
+    #2aaec2 90.29%
+  );
+}
+
+
+
 
 .bg-black-gradient {
   background: linear-gradient(

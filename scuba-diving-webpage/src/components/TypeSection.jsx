@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import styles, { layout } from "../style";
+
 
 
 const TypeSection = () => {
@@ -10,7 +10,7 @@ const TypeSection = () => {
     Explore the underwater world along with {' '}
   </h2>
  
-  <div className="text-gradient min-h-[1.5em]" >
+  <div className="text-darkergradient min-h-[1.5em]" >
     <Typewriter
       words={['Grey Seals', 'Lemon Sharks', 'Manta Rays']}
       loop

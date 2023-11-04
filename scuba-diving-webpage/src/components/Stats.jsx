@@ -1,6 +1,6 @@
 import React from 'react'
 import {stats} from '../constants'
-import styles from '../style'
+
 
 const Stats = () => (
     <section className={`flex justify-center md:flex-row flex-col 
