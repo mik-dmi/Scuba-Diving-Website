@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './style'
-import { logo , turtle} from './assets';
 import {Navbar, DivingCourses, FirstTimeDive, PlanDive, Footer, Hero, TypeSection, OurTeam, ContactUs} from './components'
 
 
