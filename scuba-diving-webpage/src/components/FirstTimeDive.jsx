@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const FirstTimeDive = () =>  (
    
-    <section id="FirstTimeDiving" className={layout.section}>
+    <section id="FirstTimeDiving" className={` ${layout.section} items-center`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           First time diving   

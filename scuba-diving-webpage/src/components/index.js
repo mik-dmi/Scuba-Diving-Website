@@ -7,8 +7,8 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import TypeSection from "./TypeSection";
 import OurTeam from "./OurTeam";
-import ContactUs from "./ContactUs"
-
+import ContactUs from "./ContactUs";
+import Reveal from "./Reveal";
 
 export {
   Navbar,
@@ -20,5 +20,6 @@ export {
   Hero,
   OurTeam,
   ContactUs,
-  TypeSection
+  TypeSection,
+  Reveal
 };

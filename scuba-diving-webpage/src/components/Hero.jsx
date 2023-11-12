@@ -11,7 +11,7 @@ const Hero = () => (
  
         <div className="flex flex-col justify-between items-start sm:w-full  ">
           <h1 className="flex-1 font-poppins font-semibold 
-          sm:text-[72px] text-[52px] text-white md:leading-[0.9em] leading-[1.1em] ">
+          sm:text-[72px] text-[52px] text-white md:leading-[0.9em] leading-[1.1em] md:mt-[2rem] mt-0">
             Best Scuba <br/>{" "}
             <span className="text-gradient flex-wrap md:whitespace-pre-line   sm:whitespace-nowrap "> Diving Center</span>{" "}
             <br className="block " />{" "}

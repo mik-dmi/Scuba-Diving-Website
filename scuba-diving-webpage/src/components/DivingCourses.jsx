@@ -2,7 +2,7 @@ import {  coursesIcon, imageOfDivingCourses } from "../assets";
 import styles, { layout } from "../style";
 
 const DivingCourses = () => (
-  <section id="courses" className={`${layout.sectionReverse}  bg-white`}>
+  <section id="courses" className={`${layout.sectionReverse} items-center  bg-white`}>
     <div className={layout.sectionImgReverse}>
       <img src={imageOfDivingCourses} alt="Diving Courses" className="md:max-w-[90%] max-w-[75%] md:max-h-[90%] max-h-[75%] shadow-lg " />
 
