@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
+
 import {close, logo, menu} from '../assets';
 import {navLinks} from '../constants';
 
@@ -12,10 +13,10 @@ const Navbar = () => {
       <img src={logo} alt="hoobank" className="w-[144px] font-bold h-[42px]" />
       <ul className='list-none smd:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav,index)=>(
-          <li key={nav.id} className={`font-poppins font-semibold  cursor-pointer 
-          text-[1.6rem] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white `}> 
+          <li key={nav.id} className={`font-poppins font-semibold  cursor-pointer hover:text-cyan-300
+          text-[1.6rem] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white  `}> 
 
-              <a href={`#${nav.id}`}>
+              <a  href={`#${nav.id}` }>
                 {nav.title}
               </a>
 
